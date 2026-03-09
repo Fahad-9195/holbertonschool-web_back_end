@@ -34,8 +34,8 @@ export class StudentHolberton {
 }
 
 const listOfHolbertonClasses = [
-  new HolbertonClass(2019, 'San Francisco'),
   new HolbertonClass(2020, 'San Francisco'),
+  new HolbertonClass(2019, 'San Francisco'),
 ];
 
 export const listOfStudents = [
