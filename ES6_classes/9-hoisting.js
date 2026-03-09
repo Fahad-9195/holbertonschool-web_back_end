@@ -33,7 +33,7 @@ export class StudentHolberton {
   }
 }
 
-export const listOfHolbertonClasses = [
+const listOfHolbertonClasses = [
   new HolbertonClass(2019, 'San Francisco'),
   new HolbertonClass(2020, 'San Francisco'),
 ];
@@ -45,3 +45,5 @@ export const listOfStudents = [
   new StudentHolberton('Donald', 'Bush', listOfHolbertonClasses[1]),
   new StudentHolberton('Jason', 'Sandler', listOfHolbertonClasses[1]),
 ];
+
+export default listOfStudents;
